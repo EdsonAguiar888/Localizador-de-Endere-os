@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+h1 {
+    margin: 30px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(220, 221, 221);
+}
+
+#endereco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+#endereco input{
+    margin: 10px;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    
+    
+}
