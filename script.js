@@ -10,14 +10,20 @@ $(document).ready(function(){
             console.log(status);
             
             $("#rua").val(dados.logradouro);
-            $("#bairro").val(dados.bairro);
-            $("#cidade").val(dados.localidade);
-            
+            $("#bairro").val("BAIRRO - " + dados.bairro);
+            $("#cidade").val("CIDADE - "+ dados.localidade);
+            $("#ddd").val("DDD - "+ dados.ddd);
+            $(".show").css("display","block");
         });
     });
 
 });
 
+var load = document.getElementById("btn1");
+
+    load.addEventListener("click", function(){
+        location.reload();
+    })
 
 
 

@@ -5,43 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title> Utilizando AJAX </title>
+    <title> Buscador de CEP </title>
 </head>
 <body>
     
-    
-
-
-    <H1>Localizador de Endereços</H1>
-
-    <h2>Lista de usuarios</h2>
-
-    <div id="endereco">
-
+    <div class="box">
         
+        <div id="endereco">         
+            
+            <H1>Localizador de Endereços</H1>        
+            <h2>Digite um CEP válido</h2>
         
         
             <input  id="cep";type="text" placeholder="Digite seu Cep" >
-            <input id="rua" type="text" placeholder="Nome da rua">
-            <input id="bairro" type="text" placeholder="Bairro">
-            <input id="cidade" type="text" placeholder="Cidade">
-            <input id="ddd" type="text" placeholder="ddd">
+            <input id="rua" class="show" type="text" placeholder="Nome da rua">
+            <input id="bairro" class="show" type="text" placeholder="Bairro">
+            <input id="cidade" class="show" type="text" placeholder="Cidade">
+            <input id="ddd" class="show" type="text" placeholder="ddd">
        
+            <button id="btn" type="submit" >Pesquisar</button>
+            <button id="btn1" type="submit" >Pesquisar novo CEP</button>
     </div>
 
-
-
-    <div class="container">
-
-        <ul class="list">
-
-        </ul>
-
-        <button id="btn" type="submit" >Pesquisar</button>
-        <button id="btn1" type="submit" >Pesquisar novo CEP</button>
-
-    </div>
-
+</div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="script.js"></script>
     
