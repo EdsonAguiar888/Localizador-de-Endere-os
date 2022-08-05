@@ -16,7 +16,6 @@ $(document).ready(function(){
             $(".show").css("display","block");
         });
     });
-
 });
 
 var load = document.getElementById("btn1");
